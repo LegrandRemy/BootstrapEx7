@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Lien vers CSS Bootstrap-->
+    <link rel="stylesheet" href="assets/CSS/bootstrap.min.css">
+    <title>Exercice7</title>
+</head>
+
+<body>
+    <!-- Centrer la card au centre de l'ecran-->
+<div class="d-flex justify-content-center">
+    <div class="card text-center w-50">
+        <div class="card-body">
+          <h5 class="card-title">La Manu Le Havre</h5>
+          <p class="card-text">L'ecole des metiers du numerique.</p>
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal">
+    + d'infos
+  </button>
+        </div>
+      </div>
+    
+  <!-- Modal -->
+  <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">La Manu Le Havre</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body bg-primary">
+          https://lamanu.fr/le-havre
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Liens vers CDN Jquery + Js Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <script src="assets/Js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
